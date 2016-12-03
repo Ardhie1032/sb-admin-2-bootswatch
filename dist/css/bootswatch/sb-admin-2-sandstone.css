@@ -421,20 +421,7 @@ body.gray-base {
 .navbar-default.sidebar ul li {
   border-bottom: 1px solid #3E3F3A; }
 .navbar-default .sidebar-nav a {
-  color: #98978B;
-  /*
-  &:not(.active) {
-    color: $navbar-default-link-color;
-  }
-  &:not(.active):hover {
-    color: $navbar-default-link-hover-color;
-    background-color: $navbar-default-link-hover-bg;
-  }
-  &:not(.active):focus {
-    color: $navbar-default-link-active-color;
-    background-color: $navbar-default-link-active-bg;
-  }
-  */ }
+  color: #98978B; }
   .navbar-default .sidebar-nav a:hover {
     color: #fff;
     background-color: transparent; }
