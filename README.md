@@ -15,7 +15,8 @@
     <link href="../vendor/bootswatch/cerulean/bootstrap.min.css" rel="stylesheet">
 
     <!-- SB Admin 2 - Custom CSS -->
-    <link href="../dist/css/bootswatch/sb-admin-2-cerulean.css" rel="stylesheet">
+    <!-- link href="../dist/css/sb-admin-2.css" rel="stylesheet" -->
+    <link href="../dist/css/bootswatch/sb-admin-2-cerulean.min.css" rel="stylesheet">
 
     <!-- ..... -->
 
