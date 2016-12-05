@@ -414,10 +414,64 @@ table.dataTable thead .sorting:after {
 body.gray-base {
   background-color: #000; }
 
+body.bbs-admin {
+  margin-top: 60px; }
+  body.bbs-admin .navbar-top-links ul > li > a > *, body.bbs-admin .navbar-top-links ol > li > a > * {
+    margin: 8px 0; }
+  body.bbs-admin .navbar-top-links .divider {
+    margin: 0; }
+  body.bbs-admin .navbar-top-links ul {
+    padding: 0; }
+  @media (max-width: 767px) {
+    body.bbs-admin .navbar-top-links {
+      display: none; } }
+  @media (min-width: 768px) {
+    body.bbs-admin .navbar-header > .navbar-toggle {
+      display: block;
+      float: left;
+      margin-left: 15px; } }
+  body.bbs-admin .sidebar {
+    position: fixed;
+    width: 280px;
+    left: -280px;
+    top: 61px;
+    margin-top: 0;
+    transition: all 0.4s ease 0s; }
+  body.bbs-admin #page-wrapper {
+    margin: 0; }
+  @media (max-width: 767px) {
+    body.bbs-admin .sidebar {
+      bottom: 0; } }
+  body.bbs-admin.active .sidebar {
+    position: fixed;
+    left: 0;
+    top: 61px;
+    margin-top: 0; }
+  body.bbs-admin.active #page-wrapper {
+    margin: 0 0 0 280px; }
+  @media (max-width: 767px) {
+    body.bbs-admin.active #page-wrapper {
+      margin: 0; } }
+  body.bbs-admin .navbar-static-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; }
+  body.bbs-admin .side-menu-scroll {
+    overflow-y: auto; }
+
 #page-wrapper {
+  transition: all 0.4s ease 0s;
   background-color: #fff;
   color: #3E3F3A; }
 
+.navbar-top-links li a {
+  min-height: 60px; }
+
+@media (min-width: 768px) {
+  .sidebar {
+    margin-top: 61px; } }
 .navbar-default.sidebar ul li {
   border-bottom: 1px solid #3E3F3A; }
 .navbar-default .sidebar-nav a {
@@ -439,41 +493,11 @@ body.gray-base {
   .navbar-default .navbar-top-links .dropdown > a.dropdown-toggle:hover {
     color: #fff;
     background-color: transparent; }
-.navbar-default .navbar-top-links .nav-button > a {
-  color: #98978B; }
-  .navbar-default .navbar-top-links .nav-button > a:focus {
+.navbar-default .navbar-top-links .dropdown-menu a {
+  color: #3E3F3A; }
+  .navbar-default .navbar-top-links .dropdown-menu a:focus {
     color: #fff;
     background-color: #393a35; }
-  .navbar-default .navbar-top-links .nav-button > a:hover {
-    color: #fff;
-    background-color: transparent; }
-
-.navbar-inverse.sidebar ul li {
-  border-bottom: 1px solid #93C54B; }
-.navbar-inverse .sidebar-nav a {
-  color: #6b9430; }
-  .navbar-inverse .sidebar-nav a:hover {
-    color: #fff;
-    background-color: transparent; }
-  .navbar-inverse .sidebar-nav a:focus {
-    color: #fff;
-    background-color: #89be3d; }
-  .navbar-inverse .sidebar-nav a.active {
-    color: #fff;
-    background-color: #393a35; }
-.navbar-inverse .navbar-top-links .dropdown > a.dropdown-toggle {
-  color: #6b9430; }
-  .navbar-inverse .navbar-top-links .dropdown > a.dropdown-toggle:focus {
-    color: #fff;
-    background-color: #89be3d; }
-  .navbar-inverse .navbar-top-links .dropdown > a.dropdown-toggle:hover {
-    color: #fff;
-    background-color: transparent; }
-.navbar-inverse .navbar-top-links .nav-button > a {
-  color: #6b9430; }
-  .navbar-inverse .navbar-top-links .nav-button > a:focus {
-    color: #fff;
-    background-color: #89be3d; }
-  .navbar-inverse .navbar-top-links .nav-button > a:hover {
+  .navbar-default .navbar-top-links .dropdown-menu a:hover {
     color: #fff;
     background-color: transparent; }
