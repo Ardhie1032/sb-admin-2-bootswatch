@@ -501,3 +501,33 @@ body.bbs-admin {
   .navbar-default .navbar-top-links .dropdown-menu a:hover {
     color: #D9230F;
     background-color: transparent; }
+
+.navbar-inverse.sidebar ul li {
+  border-bottom: 1px solid #a91b0c; }
+.navbar-inverse .sidebar-nav a {
+  color: #fac0ba; }
+  .navbar-inverse .sidebar-nav a:hover {
+    color: #fff;
+    background-color: transparent; }
+  .navbar-inverse .sidebar-nav a:focus {
+    color: #fff;
+    background-color: transparent; }
+  .navbar-inverse .sidebar-nav a.active {
+    color: #fff;
+    background-color: #D9230F; }
+.navbar-inverse .navbar-top-links .dropdown > a.dropdown-toggle {
+  color: #fac0ba; }
+  .navbar-inverse .navbar-top-links .dropdown > a.dropdown-toggle:focus {
+    color: #fff;
+    background-color: transparent; }
+  .navbar-inverse .navbar-top-links .dropdown > a.dropdown-toggle:hover {
+    color: #fff;
+    background-color: transparent; }
+.navbar-inverse .navbar-top-links .dropdown-menu a {
+  color: #777; }
+  .navbar-inverse .navbar-top-links .dropdown-menu a:focus {
+    color: #fff;
+    background-color: transparent; }
+  .navbar-inverse .navbar-top-links .dropdown-menu a:hover {
+    color: #fff;
+    background-color: transparent; }

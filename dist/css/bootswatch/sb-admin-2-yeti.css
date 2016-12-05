@@ -1,503 +1,81 @@
-body {
-  background-color: #eeeeee; }
-
-#wrapper {
-  width: 100%; }
-
-#page-wrapper {
-  padding: 0 15px;
-  min-height: 568px;
-  background-color: white; }
-
-@media (min-width: 768px) {
-  #page-wrapper {
-    position: inherit;
-    margin: 0 0 0 250px;
-    padding: 0 30px;
-    border-left: 1px solid #dedede; } }
-.navbar-top-links {
-  margin-right: 0; }
-
-.navbar-top-links li {
-  display: inline-block; }
-
-.navbar-top-links li:last-child {
-  margin-right: 15px; }
-
-.navbar-top-links li a {
-  padding: 15px;
-  min-height: 50px; }
-
-.navbar-top-links .dropdown-menu li {
-  display: block; }
-
-.navbar-top-links .dropdown-menu li:last-child {
-  margin-right: 0; }
-
-.navbar-top-links .dropdown-menu li a {
-  padding: 3px 20px;
-  min-height: 0; }
-
-.navbar-top-links .dropdown-menu li a div {
-  white-space: normal; }
-
-.navbar-top-links .dropdown-messages,
-.navbar-top-links .dropdown-tasks,
-.navbar-top-links .dropdown-alerts {
-  width: 310px;
-  min-width: 0; }
-
-.navbar-top-links .dropdown-messages {
-  margin-left: 5px; }
-
-.navbar-top-links .dropdown-tasks {
-  margin-left: -59px; }
-
-.navbar-top-links .dropdown-alerts {
-  margin-left: -123px; }
-
-.navbar-top-links .dropdown-user {
-  right: 0;
-  left: auto; }
-
-.sidebar .sidebar-nav.navbar-collapse {
-  padding-left: 0;
-  padding-right: 0; }
-
-.sidebar .sidebar-search {
-  padding: 15px; }
-
-.sidebar ul li {
-  border-bottom: 1px solid #dedede; }
-  .sidebar ul li a.active {
-    background-color: #eeeeee; }
-
-.sidebar .arrow {
-  float: right; }
-
-.sidebar .fa.arrow:before {
-  content: "\f104"; }
-
-.sidebar .active > a > .fa.arrow:before {
-  content: "\f107"; }
-
-.sidebar .nav-second-level li,
-.sidebar .nav-third-level li {
-  border-bottom: none !important; }
-
-.sidebar .nav-second-level li a {
-  padding-left: 37px; }
-
-.sidebar .nav-third-level li a {
-  padding-left: 52px; }
-
-@media (min-width: 768px) {
-  .sidebar {
-    z-index: 1;
-    position: absolute;
-    width: 250px;
-    margin-top: 51px; }
-
-  .navbar-top-links .dropdown-messages,
-  .navbar-top-links .dropdown-tasks,
-  .navbar-top-links .dropdown-alerts {
-    margin-left: auto; } }
-.btn-outline {
-  color: inherit;
-  background-color: transparent;
-  transition: all .5s; }
-
-.btn-primary.btn-outline {
-  color: #008cba; }
-
-.btn-success.btn-outline {
-  color: #43ac6a; }
-
-.btn-info.btn-outline {
-  color: #5bc0de; }
-
-.btn-warning.btn-outline {
-  color: #E99002; }
-
-.btn-danger.btn-outline {
-  color: #F04124; }
-
-.btn-primary.btn-outline:hover,
-.btn-success.btn-outline:hover,
-.btn-info.btn-outline:hover,
-.btn-warning.btn-outline:hover,
-.btn-danger.btn-outline:hover {
-  color: white; }
-
-.chat {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-.chat li {
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px dotted #999999; }
-
-.chat li.left .chat-body {
-  margin-left: 60px; }
-
-.chat li.right .chat-body {
-  margin-right: 60px; }
-
-.chat li .chat-body p {
-  margin: 0; }
-
-.panel .slidedown .glyphicon,
-.chat .glyphicon {
-  margin-right: 5px; }
-
-.chat-panel .panel-body {
-  height: 350px;
-  overflow-y: scroll; }
-
-.login-panel {
-  margin-top: 25%; }
-
-.flot-chart {
-  display: block;
-  height: 400px; }
-
-.flot-chart-content {
-  width: 100%;
-  height: 100%; }
-
-table.dataTable thead .sorting,
-table.dataTable thead .sorting_asc,
-table.dataTable thead .sorting_desc,
-table.dataTable thead .sorting_asc_disabled,
-table.dataTable thead .sorting_desc_disabled {
-  background: transparent; }
-
-table.dataTable thead .sorting_asc:after {
-  content: "\f0de";
-  float: right;
-  font-family: fontawesome; }
-
-table.dataTable thead .sorting_desc:after {
-  content: "\f0dd";
-  float: right;
-  font-family: fontawesome; }
-
-table.dataTable thead .sorting:after {
-  content: "\f0dc";
-  float: right;
-  font-family: fontawesome;
-  color: rgba(50, 50, 50, 0.5); }
-
-.btn-circle {
-  width: 30px;
-  height: 30px;
-  padding: 6px 0;
-  border-radius: 15px;
-  text-align: center;
-  font-size: 12px;
-  line-height: 1.428571429; }
-
-.btn-circle.btn-lg {
-  width: 50px;
-  height: 50px;
-  padding: 10px 16px;
-  border-radius: 25px;
-  font-size: 18px;
-  line-height: 1.33; }
-
-.btn-circle.btn-xl {
-  width: 70px;
-  height: 70px;
-  padding: 10px 16px;
-  border-radius: 35px;
-  font-size: 24px;
-  line-height: 1.33; }
-
-.show-grid [class^="col-"] {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 1px solid #ddd;
-  background-color: #eee !important; }
-
-.show-grid {
-  margin: 15px 0; }
-
-.huge {
-  font-size: 40px; }
-
-.panel-green {
-  border-color: #43ac6a; }
-  .panel-green > .panel-heading {
-    border-color: #43ac6a;
-    color: white;
-    background-color: #43ac6a; }
-  .panel-green > a {
-    color: #43ac6a; }
-    .panel-green > a:hover {
-      color: #2e7548; }
-
-.panel-red {
-  border-color: #F04124; }
-  .panel-red > .panel-heading {
-    border-color: #F04124;
-    color: white;
-    background-color: #F04124; }
-  .panel-red > a {
-    color: #F04124; }
-    .panel-red > a:hover {
-      color: #bb260d; }
-
-.panel-yellow {
-  border-color: #E99002; }
-  .panel-yellow > .panel-heading {
-    border-color: #E99002;
-    color: white;
-    background-color: #E99002; }
-  .panel-yellow > a {
-    color: #E99002; }
-    .panel-yellow > a:hover {
-      color: #9d6101; }
-
-.timeline {
-  position: relative;
-  padding: 20px 0 20px;
-  list-style: none; }
-
-.timeline:before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 3px;
-  margin-left: -1.5px;
-  background-color: #eeeeee; }
-
-.timeline > li {
-  position: relative;
-  margin-bottom: 20px; }
-
-.timeline > li:before,
-.timeline > li:after {
-  content: " ";
-  display: table; }
-
-.timeline > li:after {
-  clear: both; }
-
-.timeline > li:before,
-.timeline > li:after {
-  content: " ";
-  display: table; }
-
-.timeline > li:after {
-  clear: both; }
-
-.timeline > li > .timeline-panel {
-  float: left;
-  position: relative;
-  width: 46%;
-  padding: 20px;
-  border: 1px solid #d4d4d4;
-  border-radius: 2px;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); }
-
-.timeline > li > .timeline-panel:before {
-  content: " ";
-  display: inline-block;
-  position: absolute;
-  top: 26px;
-  right: -15px;
-  border-top: 15px solid transparent;
-  border-right: 0 solid #ccc;
-  border-bottom: 15px solid transparent;
-  border-left: 15px solid #ccc; }
-
-.timeline > li > .timeline-panel:after {
-  content: " ";
-  display: inline-block;
-  position: absolute;
-  top: 27px;
-  right: -14px;
-  border-top: 14px solid transparent;
-  border-right: 0 solid #fff;
-  border-bottom: 14px solid transparent;
-  border-left: 14px solid #fff; }
-
-.timeline > li > .timeline-badge {
-  z-index: 100;
-  position: absolute;
-  top: 16px;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  margin-left: -25px;
-  border-radius: 50% 50% 50% 50%;
-  text-align: center;
-  font-size: 1.4em;
-  line-height: 50px;
-  color: #fff;
-  background-color: #999999; }
-
-.timeline > li.timeline-inverted > .timeline-panel {
-  float: right; }
-
-.timeline > li.timeline-inverted > .timeline-panel:before {
-  right: auto;
-  left: -15px;
-  border-right-width: 15px;
-  border-left-width: 0; }
-
-.timeline > li.timeline-inverted > .timeline-panel:after {
-  right: auto;
-  left: -14px;
-  border-right-width: 14px;
-  border-left-width: 0; }
-
-.timeline-badge.primary {
-  background-color: #2e6da4 !important; }
-
-.timeline-badge.success {
-  background-color: #3f903f !important; }
-
-.timeline-badge.warning {
-  background-color: #f0ad4e !important; }
-
-.timeline-badge.danger {
-  background-color: #d9534f !important; }
-
-.timeline-badge.info {
-  background-color: #5bc0de !important; }
-
-.timeline-title {
-  margin-top: 0;
-  color: inherit; }
-
-.timeline-body > p,
-.timeline-body > ul {
-  margin-bottom: 0; }
-
-.timeline-body > p + p {
-  margin-top: 5px; }
-
-@media (max-width: 767px) {
-  ul.timeline:before {
-    left: 40px; }
-
-  ul.timeline > li > .timeline-panel {
-    width: calc(100% - 90px);
-    width: -moz-calc(100% - 90px);
-    width: -webkit-calc(100% - 90px); }
-
-  ul.timeline > li > .timeline-badge {
-    top: 16px;
-    left: 15px;
-    margin-left: 0; }
-
-  ul.timeline > li > .timeline-panel {
-    float: right; }
-
-  ul.timeline > li > .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0; }
-
-  ul.timeline > li > .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0; } }
-body.gray-base {
-  background-color: #000; }
-
-body.bbs-admin {
-  margin-top: 45px; }
-  body.bbs-admin .navbar-top-links ul > li > a > *, body.bbs-admin .navbar-top-links ol > li > a > * {
-    margin: 8px 0; }
-  body.bbs-admin .navbar-top-links .divider {
-    margin: 0; }
-  body.bbs-admin .navbar-top-links ul {
-    padding: 0; }
-  @media (max-width: 767px) {
-    body.bbs-admin .navbar-top-links {
-      display: none; } }
-  @media (min-width: 768px) {
-    body.bbs-admin .navbar-header > .navbar-toggle {
-      display: block;
-      float: left;
-      margin-left: 15px; } }
-  body.bbs-admin .sidebar {
-    position: fixed;
-    width: 280px;
-    left: -280px;
-    top: 46px;
-    margin-top: 0;
-    transition: all 0.4s ease 0s; }
-  body.bbs-admin #page-wrapper {
-    margin: 0; }
-  @media (max-width: 767px) {
-    body.bbs-admin .sidebar {
-      bottom: 0; } }
-  body.bbs-admin.active .sidebar {
-    position: fixed;
-    left: 0;
-    top: 46px;
-    margin-top: 0; }
-  body.bbs-admin.active #page-wrapper {
-    margin: 0 0 0 280px; }
-  @media (max-width: 767px) {
-    body.bbs-admin.active #page-wrapper {
-      margin: 0; } }
-  body.bbs-admin .navbar-static-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030; }
-  body.bbs-admin .side-menu-scroll {
-    overflow-y: auto; }
-
-#page-wrapper {
-  transition: all 0.4s ease 0s;
-  background-color: #fff;
-  color: #222222; }
-
-.navbar-top-links li a {
-  min-height: 45px; }
-
-@media (min-width: 768px) {
-  .sidebar {
-    margin-top: 46px; } }
-.navbar-default.sidebar ul li {
-  border-bottom: 1px solid #222222; }
-.navbar-default .sidebar-nav a {
-  color: #fff; }
-  .navbar-default .sidebar-nav a:hover {
-    color: #fff;
-    background-color: #272727; }
-  .navbar-default .sidebar-nav a:focus {
-    color: #fff;
-    background-color: #272727; }
-  .navbar-default .sidebar-nav a.active {
-    color: #262626;
-    background-color: #eee; }
-.navbar-default .navbar-top-links .dropdown > a.dropdown-toggle {
-  color: #fff; }
-  .navbar-default .navbar-top-links .dropdown > a.dropdown-toggle:focus {
-    color: #fff;
-    background-color: #272727; }
-  .navbar-default .navbar-top-links .dropdown > a.dropdown-toggle:hover {
-    color: #fff;
-    background-color: #272727; }
-.navbar-default .navbar-top-links .dropdown-menu a {
-  color: #222222; }
-  .navbar-default .navbar-top-links .dropdown-menu a:focus {
-    color: #fff;
-    background-color: #272727; }
-  .navbar-default .navbar-top-links .dropdown-menu a:hover {
-    color: #fff;
-    background-color: #272727; }
+/*
+Error: Undefined variable: "$navbar-navbar-default-color".
+        on line 721 of sass/_sb-admin-2.scss
+        from line 2 of sass/sb-admin-2-yeti.scss
+
+Backtrace:
+sass/_sb-admin-2.scss:721
+sass/sb-admin-2-yeti.scss:2
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$navbar-navbar-default-color\".\A         on line 721 of sass/_sb-admin-2.scss\A         from line 2 of sass/sb-admin-2-yeti.scss"; }
