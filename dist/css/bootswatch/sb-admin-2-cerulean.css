@@ -438,7 +438,9 @@ body.bbs-admin {
     margin-top: 0;
     transition: all 0.4s ease 0s; }
   body.bbs-admin #page-wrapper {
-    margin: 0; }
+    margin: 0;
+    background-color: #fff;
+    color: #555555; }
   @media (max-width: 767px) {
     body.bbs-admin .sidebar {
       bottom: 0; } }
@@ -493,14 +495,6 @@ body.bbs-admin {
   .navbar-default .navbar-top-links .dropdown > a.dropdown-toggle:hover {
     color: #fff;
     background-color: #178acc; }
-.navbar-default .navbar-top-links .dropdown-menu a {
-  color: #555555; }
-  .navbar-default .navbar-top-links .dropdown-menu a:focus {
-    color: #fff;
-    background-color: #178acc; }
-  .navbar-default .navbar-top-links .dropdown-menu a:hover {
-    color: #fff;
-    background-color: #178acc; }
 
 .navbar-inverse.sidebar ul li {
   border-bottom: 1px solid #022f5a; }
@@ -521,13 +515,5 @@ body.bbs-admin {
     color: #fff;
     background-color: #022f5a; }
   .navbar-inverse .navbar-top-links .dropdown > a.dropdown-toggle:hover {
-    color: #fff;
-    background-color: #022f5a; }
-.navbar-inverse .navbar-top-links .dropdown-menu a {
-  color: #555555; }
-  .navbar-inverse .navbar-top-links .dropdown-menu a:focus {
-    color: #fff;
-    background-color: #022f5a; }
-  .navbar-inverse .navbar-top-links .dropdown-menu a:hover {
     color: #fff;
     background-color: #022f5a; }

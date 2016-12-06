@@ -438,7 +438,9 @@ body.bbs-admin {
     margin-top: 0;
     transition: all 0.4s ease 0s; }
   body.bbs-admin #page-wrapper {
-    margin: 0; }
+    margin: 0;
+    background-color: #fff;
+    color: #333333; }
   @media (max-width: 767px) {
     body.bbs-admin .sidebar {
       bottom: 0; } }
@@ -493,14 +495,6 @@ body.bbs-admin {
   .navbar-default .navbar-top-links .dropdown > a.dropdown-toggle:hover {
     color: #4582EC;
     background-color: transparent; }
-.navbar-default .navbar-top-links .dropdown-menu a {
-  color: #333333; }
-  .navbar-default .navbar-top-links .dropdown-menu a:focus {
-    color: #4582EC;
-    background-color: transparent; }
-  .navbar-default .navbar-top-links .dropdown-menu a:hover {
-    color: #4582EC;
-    background-color: transparent; }
 
 .navbar-inverse.sidebar ul li {
   border-bottom: 1px solid #ddd; }
@@ -521,13 +515,5 @@ body.bbs-admin {
     color: #333333;
     background-color: transparent; }
   .navbar-inverse .navbar-top-links .dropdown > a.dropdown-toggle:hover {
-    color: #333333;
-    background-color: transparent; }
-.navbar-inverse .navbar-top-links .dropdown-menu a {
-  color: #333333; }
-  .navbar-inverse .navbar-top-links .dropdown-menu a:focus {
-    color: #333333;
-    background-color: transparent; }
-  .navbar-inverse .navbar-top-links .dropdown-menu a:hover {
     color: #333333;
     background-color: transparent; }
